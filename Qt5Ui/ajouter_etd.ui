@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>665</width>
+    <height>479</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/background/b.png);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font: 18pt &quot;Bauhaus 93&quot;;
+text-decoration: underline;
+color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(22, 179, 218, 255), stop:1 rgba(255, 255, 255, 255));</string>
+        </property>
+        <property name="text">
+         <string>Ajouter Etudiant</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_4">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,2,1,2">
+      <property name="leftMargin">
+       <number>9</number>
+      </property>
+      <property name="rightMargin">
+       <number>40</number>
+      </property>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">
+font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Nom: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="styleSheet">
+         <string notr="true">font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+
+padding:5;
+font: 11pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;</string>
+        </property>
+        <property name="maxLength">
+         <number>10</number>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Prenom: </string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="styleSheet">
+         <string notr="true">font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+
+padding:5;
+font: 11pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;</string>
+        </property>
+        <property name="maxLength">
+         <number>10</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_2">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,2,1,2">
+      <property name="leftMargin">
+       <number>9</number>
+      </property>
+      <property name="rightMargin">
+       <number>40</number>
+      </property>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>N° d'Inscription:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="styleSheet">
+         <string notr="true">font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+
+padding:5;
+font: 11pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;</string>
+        </property>
+        <property name="inputMask">
+         <string/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="maxLength">
+         <number>8</number>
+        </property>
+        <property name="frame">
+         <bool>true</bool>
+        </property>
+        <property name="cursorPosition">
+         <number>0</number>
+        </property>
+        <property name="placeholderText">
+         <string/>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_5">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Mail:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_4">
+        <property name="styleSheet">
+         <string notr="true">font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+
+padding:5;
+font: 11pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>@gmail.com</string>
+        </property>
+        <property name="maxLength">
+         <number>30</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_5">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="1,2,1,2">
+      <property name="leftMargin">
+       <number>9</number>
+      </property>
+      <property name="rightMargin">
+       <number>40</number>
+      </property>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_6">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Adresse:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_5">
+        <property name="styleSheet">
+         <string notr="true">font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+
+padding:5;
+font: 11pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;</string>
+        </property>
+        <property name="maxLength">
+         <number>20</number>
+        </property>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_7">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Télephone:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_7">
+        <property name="styleSheet">
+         <string notr="true">font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+
+padding:5;
+font: 11pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;</string>
+        </property>
+        <property name="inputMask">
+         <string/>
+        </property>
+        <property name="maxLength">
+         <number>8</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_3">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,2,1,2">
+      <property name="spacing">
+       <number>6</number>
+      </property>
+      <property name="leftMargin">
+       <number>9</number>
+      </property>
+      <property name="rightMargin">
+       <number>40</number>
+      </property>
+      <property name="bottomMargin">
+       <number>9</number>
+      </property>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_10">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Classe:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <property name="styleSheet">
+         <string notr="true">font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+
+padding:5;
+font: 11pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>CPI-1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>CPI-2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ING-1-EL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ING-1-INFO</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ING-2-EL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ING-3-EL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L1-EEA</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L1-INFO</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L1-MATH</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L1-TIC</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L2-INFO</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L2-MATH</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L2-TIC</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L3-INFO</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L3-MATH</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L3-TIC</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MP-1-GL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MP-1-III</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MP-1-SD</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MP-2-GL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MR-1-EL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MR-1-GL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MR-2-EL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MR-2-GL</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_8">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Date Naissance:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QDateEdit" name="dateEdit">
+        <property name="styleSheet">
+         <string notr="true">font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+
+padding:5;
+font: 9pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;
+</string>
+        </property>
+        <property name="showGroupSeparator" stdset="0">
+         <bool>false</bool>
+        </property>
+        <property name="calendarPopup">
+         <bool>false</bool>
+        </property>
+        <property name="currentSectionIndex">
+         <number>0</number>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_6">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <property name="leftMargin">
+       <number>200</number>
+      </property>
+      <property name="rightMargin">
+       <number>200</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">  margin: 10px;
+font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: #19667d;
+
+padding:5;
+font: 14pt &quot;Impact&quot;;
+text-decoration: underline;
+background: #70c9e3;</string>
+        </property>
+        <property name="text">
+         <string>Ajouter</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../../images/test.qrc"/>
+ </resources>
+ <connections/>
+</ui>

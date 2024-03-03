@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>654</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/background/b.png);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" stretch="2,3,3,3,2">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item alignment="Qt::AlignHCenter">
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font: 18pt &quot;Bauhaus 93&quot;;
+text-decoration: underline;
+color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(22, 179, 218, 255), stop:1 rgba(255, 255, 255, 255));</string>
+        </property>
+        <property name="text">
+         <string>Suppression</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_3">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="3,5">
+      <property name="leftMargin">
+       <number>110</number>
+      </property>
+      <property name="rightMargin">
+       <number>210</number>
+      </property>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Supprimer un etudiant:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="styleSheet">
+         <string notr="true">font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+padding:5;
+font: 11pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;</string>
+        </property>
+        <property name="inputMask">
+         <string>99999999</string>
+        </property>
+        <property name="placeholderText">
+         <string>N° D'inscription</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_2">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="3,5">
+      <property name="leftMargin">
+       <number>110</number>
+      </property>
+      <property name="rightMargin">
+       <number>210</number>
+      </property>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_3">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Supprimer une section:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox">
+        <property name="styleSheet">
+         <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;
+font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+padding:5;
+font: 11pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;
+</string>
+        </property>
+        <item>
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>CPI-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ING--EL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ING--INFO</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L-EEA</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L-INFO</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L-MATH</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>L-TIC</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MP--GL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MP--III</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MP--SD</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MR--EL</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MR--GL</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_5">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="3,5">
+      <property name="leftMargin">
+       <number>110</number>
+      </property>
+      <property name="rightMargin">
+       <number>210</number>
+      </property>
+      <item alignment="Qt::AlignRight">
+       <widget class="QLabel" name="label_4">
+        <property name="styleSheet">
+         <string notr="true">font: 16pt &quot;Gloucester MT Extra Condensed&quot;;
+color: rgb(255, 255, 255);
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Supprimer un niveau:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="comboBox_2">
+        <property name="styleSheet">
+         <string notr="true">font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: rgb(0, 0, 0);
+background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0.12, stop:0 rgba(118, 198, 218, 255), stop:1 rgba(255, 255, 255, 255));
+padding:5;
+font: 11pt &quot;Malgun Gothic&quot;;
+text-decoration: underline;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Niveau</string>
+        </property>
+        <item>
+         <property name="text">
+          <string/>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame_6">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <property name="leftMargin">
+       <number>200</number>
+      </property>
+      <property name="rightMargin">
+       <number>200</number>
+      </property>
+      <item>
+       <widget class="QPushButton" name="pushButton">
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">  margin: 10px;
+font: bold 12px/25px Arial, sans-serif;  
+border-radius: 10px;
+color: #19667d;
+background: #70c9e3;
+padding:5;
+font: 14pt &quot;Impact&quot;;
+text-decoration: underline;</string>
+        </property>
+        <property name="text">
+         <string>Supprimer</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../../images/test.qrc"/>
+ </resources>
+ <connections/>
+</ui>
